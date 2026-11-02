@@ -1,0 +1,8 @@
+{
+ "s01": "Image Tool resizes, converts, and compresses pictures, right on your desktop. Let's try it on a photo that's a little too big to share.",
+ "s02": "I'll choose the image. The app reads it straight away, and shows its size, its type, and its file size. This one's nineteen twenty by ten eighty, a JPEG, around six hundred kilobytes.",
+ "s03": "First, a resize. I'll go by width, and type eight hundred. Then I'll switch the image type to WEBP, and hit Process. And there it is: a preview, the new dimensions, and a much smaller file.",
+ "s04": "Now let's try compressing. I'll keep the size as it is, turn on Compress, and set the quality to sixty. Process again, and we get a JPEG about forty percent of the original size.",
+ "s05": "Finally, Show in folder. All the results are saved right next to the original, which is never changed, so you can compare the sizes side by side.",
+ "end": "That's Image Tool. Resize, convert, and compress, in a few clicks. Try it on one of your own images."
+}

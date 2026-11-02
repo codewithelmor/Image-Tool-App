@@ -2,6 +2,12 @@
 
 Resize, convert and compress images with a desktop app or the command line. The result is saved **next to the original**, with what changed appended to the name, and an existing file is never overwritten. **Everything is bundled**: the installer contains the app and its Python backend (with Pillow), so there is nothing to install.
 
+## Demo
+
+**[▶ Watch: Image Tool: Shrink and Convert Any Image in Seconds](https://www.loom.com/share/721f4f80b2404040b90f5380f50a2033)**
+
+See the desktop app take a 613 KB photo, resize it to 800 px wide and convert it to WEBP (148 KB), then compress the original at quality 60 (255 KB). The video ends in the folder, where the original and both results sit side by side.
+
 ## Features
 
 - **Drag and drop** an image (or choose one): JPG, PNG, WEBP, BMP, TIFF, GIF.
@@ -175,6 +181,63 @@ _Azure-Config-Converter-App/
 │   ├── cli.py
 │   ├── core.py
 │   └── requirements.txt
+├── docs
+│   └── product
+│       └── 10-launch
+│           ├── demo
+│           │   ├── audio
+│           │   │   ├── durations.json
+│           │   │   ├── end.mp3
+│           │   │   ├── end.wav
+│           │   │   ├── s01.mp3
+│           │   │   ├── s01.wav
+│           │   │   ├── s02.mp3
+│           │   │   ├── s02.wav
+│           │   │   ├── s03.mp3
+│           │   │   ├── s03.wav
+│           │   │   ├── s04.mp3
+│           │   │   ├── s04.wav
+│           │   │   ├── s05.mp3
+│           │   │   └── s05.wav
+│           │   ├── automation
+│           │   │   ├── edit.py
+│           │   │   ├── package-lock.json
+│           │   │   ├── package.json
+│           │   │   ├── place-explorer.ps1
+│           │   │   └── record-demo.js
+│           │   ├── captions
+│           │   │   ├── image-tool-overview-v1.0.0.srt
+│           │   │   └── image-tool-overview-v1.0.0.vtt
+│           │   ├── exports
+│           │   │   ├── qc-frames
+│           │   │   │   ├── sheet-001.png
+│           │   │   │   ├── sheet-002.png
+│           │   │   │   └── sheet-003.png
+│           │   │   ├── tmp
+│           │   │   │   ├── audio.wav
+│           │   │   │   ├── end.mp4
+│           │   │   │   ├── main.mp4
+│           │   │   │   ├── title.mp4
+│           │   │   │   └── video.mp4
+│           │   │   └── timeline.json
+│           │   ├── recordings
+│           │   │   ├── take2.json
+│           │   │   └── take2.mkv
+│           │   ├── thumbnail
+│           │   │   ├── alt-text.md
+│           │   │   ├── screenshot-01-open-image.png
+│           │   │   ├── screenshot-02-resize-convert-webp.png
+│           │   │   ├── screenshot-03-compress-quality-60.png
+│           │   │   ├── screenshot-04-show-in-folder.png
+│           │   │   └── thumbnail.png
+│           │   ├── demo-plan.md
+│           │   ├── feature-map.md
+│           │   ├── journeys.md
+│           │   ├── qc-report.md
+│           │   ├── scenes.json
+│           │   └── script.md
+│           └── marketing
+│               └── legal-check.md
 ├── scripts
 │   ├── build-all.ps1
 │   ├── build-all.sh

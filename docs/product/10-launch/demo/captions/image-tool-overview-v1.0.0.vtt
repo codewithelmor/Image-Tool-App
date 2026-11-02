@@ -1,0 +1,58 @@
+WEBVTT
+
+00:00:03.250 --> 00:00:06.883
+Image Tool resizes, converts, and compresses pictures,
+
+00:00:06.933 --> 00:00:08.602
+right on your desktop.
+
+00:00:08.652 --> 00:00:12.470
+Let's try it on a photo that's a little too big to share.
+
+00:00:13.572 --> 00:00:17.310
+I'll choose the image. The app reads it straight away,
+
+00:00:17.360 --> 00:00:20.720
+and shows its size, its type, and its file size.
+
+00:00:20.770 --> 00:00:24.192
+This one's nineteen twenty by ten eighty, a JPEG,
+
+00:00:24.242 --> 00:00:26.402
+around six hundred kilobytes.
+
+00:00:27.504 --> 00:00:31.888
+First, a resize. I'll go by width, and type eight hundred.
+
+00:00:31.938 --> 00:00:36.253
+Then I'll switch the image type to WEBP, and hit Process.
+
+00:00:36.303 --> 00:00:39.925
+And there it is: a preview, the new dimensions,
+
+00:00:39.975 --> 00:00:42.004
+and a much smaller file.
+
+00:00:43.115 --> 00:00:46.995
+Now let's try compressing. I'll keep the size as it is,
+
+00:00:47.045 --> 00:00:51.377
+turn on Compress, and set the quality to sixty. Process again,
+
+00:00:51.427 --> 00:00:55.565
+and we get a JPEG about forty percent of the original size.
+
+00:00:57.176 --> 00:00:58.777
+Finally, Show in folder.
+
+00:00:58.827 --> 00:01:02.024
+All the results are saved right next to the original,
+
+00:01:02.074 --> 00:01:05.986
+which is never changed, so you can compare the sizes side by side.
+
+00:01:07.140 --> 00:01:12.214
+That's Image Tool. Resize, convert, and compress, in a few clicks.
+
+00:01:12.264 --> 00:01:14.990
+Try it on one of your own images.

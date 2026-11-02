@@ -1,0 +1,139 @@
+{
+ "timeline": {
+  "s01": {
+   "start": 0,
+   "audioAt": 0.25,
+   "len": 10.32
+  },
+  "s02": {
+   "start": 10.322,
+   "audioAt": 10.572,
+   "len": 13.930000000000001
+  },
+  "s03": {
+   "start": 24.254,
+   "audioAt": 24.504,
+   "len": 15.600000000000001
+  },
+  "s04": {
+   "start": 39.865,
+   "audioAt": 40.115,
+   "len": 14.05
+  },
+  "s05": {
+   "start": 53.926,
+   "audioAt": 54.176,
+   "len": 9.91
+  },
+  "sizes": {
+   "original": 627159,
+   "resized": 151256,
+   "compressed": 260529
+  },
+  "recordingEnd": 63.84
+ },
+ "log": [
+  {
+   "scene": "s01",
+   "name": "drop area visible",
+   "pass": true,
+   "extra": ""
+  },
+  {
+   "scene": "s01",
+   "name": "image section hidden",
+   "pass": true,
+   "extra": ""
+  },
+  {
+   "scene": "s01",
+   "name": "scene fits narration",
+   "pass": true,
+   "extra": "overrun=-10.30s"
+  },
+  {
+   "scene": "s02",
+   "name": "details shown",
+   "pass": true,
+   "extra": "1920×1080 · JPEG · 612.5 KB"
+  },
+  {
+   "scene": "s02",
+   "name": "scene fits narration",
+   "pass": true,
+   "extra": "overrun=-11.83s"
+  },
+  {
+   "scene": "s03",
+   "name": "resize value box visible",
+   "pass": true,
+   "extra": ""
+  },
+  {
+   "scene": "s03",
+   "name": "width = 800",
+   "pass": true,
+   "extra": ""
+  },
+  {
+   "scene": "s03",
+   "name": "type = webp",
+   "pass": true,
+   "extra": ""
+  },
+  {
+   "scene": "s03",
+   "name": "result shown + file exists",
+   "pass": true,
+   "extra": "Saved C:\\demo\\forest_resized_800x450_converted.webp (800×450, 147.7 KB; original 612.5 KB)"
+  },
+  {
+   "scene": "s03",
+   "name": "preview loaded 800 wide",
+   "pass": true,
+   "extra": ""
+  },
+  {
+   "scene": "s03",
+   "name": "scene fits narration",
+   "pass": true,
+   "extra": "overrun=-2.60s"
+  },
+  {
+   "scene": "s04",
+   "name": "compress enabled",
+   "pass": true,
+   "extra": ""
+  },
+  {
+   "scene": "s04",
+   "name": "quality box visible",
+   "pass": true,
+   "extra": ""
+  },
+  {
+   "scene": "s04",
+   "name": "result shown + file exists + smaller",
+   "pass": true,
+   "extra": "Saved C:\\demo\\forest_compressed.jpg (1920×1080, 254.4 KB; original 612.5 KB)"
+  },
+  {
+   "scene": "s04",
+   "name": "scene fits narration",
+   "pass": true,
+   "extra": "overrun=-3.85s"
+  },
+  {
+   "scene": "s05",
+   "name": "Explorer folder window open",
+   "pass": true,
+   "extra": ""
+  },
+  {
+   "scene": "s05",
+   "name": "scene fits narration",
+   "pass": true,
+   "extra": "overrun=-5.77s"
+  }
+ ]
+}
