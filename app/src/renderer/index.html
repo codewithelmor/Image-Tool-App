@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' data: file:; style-src 'self'; script-src 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Image Tool</h1>
+      <p class="sub">Resize, convert and compress images. The result is saved next to the original, which is never changed.</p>
+    </header>
+
+    <section id="drop" class="drop" tabindex="0" role="button" aria-label="Choose an image file">
+      <p class="drop-title">Drop an image here</p>
+      <p class="sub">or</p>
+      <button id="pickBtn" class="primary">Choose image…</button>
+    </section>
+    <p id="message" class="message" role="alert" hidden></p>
+
+    <section id="imageSection" hidden>
+      <div class="list-head">
+        <h2 id="fileName"></h2>
+        <span id="imageInfo" class="sub"></span>
+      </div>
+
+      <div class="options">
+        <label>
+          <span>Resize</span>
+          <select id="resizeMode">
+            <option value="">Keep original size</option>
+            <option value="width">By width (keep aspect ratio)</option>
+            <option value="height">By height (keep aspect ratio)</option>
+            <option value="percent">By percentage</option>
+          </select>
+        </label>
+        <label id="resizeValueBox" hidden>
+          <span id="resizeValueLabel">Width (pixels)</span>
+          <input id="resizeValue" type="number" min="1" step="1">
+          <small id="resizeHint"></small>
+        </label>
+
+        <label>
+          <span>Image type</span>
+          <select id="format">
+            <option value="">Keep original type</option>
+            <option value="jpg">JPG</option>
+            <option value="png">PNG</option>
+            <option value="webp">WEBP</option>
+            <option value="bmp">BMP</option>
+            <option value="tiff">TIFF</option>
+            <option value="gif">GIF</option>
+          </select>
+          <small id="formatHint" hidden></small>
+        </label>
+
+        <label class="check">
+          <input id="compress" type="checkbox">
+          <span>Compress</span>
+          <small id="compressHint">Not available while resizing, which already reduces the file size.</small>
+        </label>
+        <label id="qualityBox" hidden>
+          <span>Quality (1-100)</span>
+          <input id="quality" type="number" min="1" max="100" step="1" value="75">
+          <small>Lower means a smaller file. 70-80 is a good balance.</small>
+        </label>
+        <label id="paletteBox" class="check" hidden>
+          <input id="palette" type="checkbox">
+          <span>Reduce to 256 colors</span>
+          <small>Much smaller file, but lossy.</small>
+        </label>
+      </div>
+
+      <div class="actions">
+        <button id="runBtn" class="primary">Process image</button>
+      </div>
+
+      <div id="result" hidden>
+        <p id="resultText"></p>
+        <button id="showBtn">Show in folder</button>
+        <img id="resultImg" alt="Preview of the processed image">
+      </div>
+    </section>
+  </main>
+  <script src="renderer.js"></script>
+</body>
+</html>
